@@ -1,0 +1,41 @@
+---
+title: "Node.js SDK"
+description: "Description of your new file."
+---
+
+We have created a Node.js SDK to make it easier for you to interact with our API. This SDK is open-source and can be found on our GitHub.
+
+## Installation
+
+```bash
+npm install --save @passmint/sdk
+```
+
+## Initialization
+
+```typescript
+const passmint = new PassMint({
+  apiKey: 'a1af13cc-cc11-4405-8d3c-471b7197b743', // Replace with your API key
+});
+```
+
+## Create a Pass
+
+```typescript
+passmint.pass.create({
+  templateId: 'pass_123',
+  data: {
+    barcodeValue: '123456789',
+    fields: [
+      {
+        key: 'header-1',
+        value: 'Jamie Smith',
+      },
+      {
+        key: 'back-1',
+        value: new Date().toISOString(),
+      },
+    ],
+  },
+});
+```

@@ -14,22 +14,25 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Introduction",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "quickstart"
             ]
           },
           {
             "group": "Essentials",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "essentials/authentication"
+            ]
+          },
+          {
+            "group": "Models",
+            "pages": [
+              "models/certificate-set",
+              "models/pass",
+              "models/short-link",
+              "models/template"
             ]
           }
         ]

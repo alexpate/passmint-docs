@@ -1,0 +1,28 @@
+---
+title: "Authentication"
+icon: "code"
+description: "An introduction to how authentication works in PassMint"
+---
+
+## **API Endpoints**
+
+All API requests should be made to our production API:
+
+```bash
+api.passmint.com;
+```
+
+---
+
+## Authentication
+
+In order to authenticate with the API, all requests must be made with your API key in the `X-API-KEY` header.
+
+```bash
+curl https://api.passmint.com/v1/passes \
+  -H "X-Api-Key: sk_ABCD_1234"
+```
+
+### Rolling your API key
+
+If you need to regenerate your API key, this can be done in your dashboard under "Settings".
