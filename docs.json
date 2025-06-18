@@ -44,8 +44,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/passmint-light.svg",
-    "dark": "/logo/passmint-dark.svg"
+    "light": "/logos/passmint-light.svg",
+    "dark": "/logos/passmint-dark.svg"
   },
   "navbar": {
     "links": [
