@@ -39,7 +39,7 @@
       },
       {
         "tab": "API Reference",
-        "openapi": "https://api.passmint.com/internal/openapi"
+        "openapi": "https://api.passmint.com/v1/openapi"
       }
     ]
   },
